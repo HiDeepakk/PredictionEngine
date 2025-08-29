@@ -52,3 +52,7 @@ This is the final, mandatory adjustment that explains many of the "weird" resolu
 In summary, what we are doing is not just finding the "closest" resolution. We are simulating a sophisticated decision tree that weighs multiple factors in order of importance: **an exact match is best, followed by a non-excessive dimensional match (width then height), followed by a safe downgrade.** Finally, we apply the non-negotiable hardware constraints of the video encoder.
 
 This multi-layered approach, refined through real-world device testing, has resulted in a predictive model that is far more robust and accurate than a simple mathematical "closest match" calculation.
+
+---
+
+[View Prediction Output](PREDICTION_OUTPUT.md)
